@@ -30,8 +30,8 @@ function startUp() {
       .prompt([
         {
           name: "buying",
-          type: "inpu",
-          message: "what product id would you like to buy?",
+          type: "input",
+          message: "what product id number would you like to buy?",
           validate: function (value) {
             if (isNaN(value) === false) {
               return true;
