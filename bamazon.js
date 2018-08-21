@@ -30,7 +30,7 @@ function startUp() {
       .prompt([
         {
           name: "buying",
-          type: "input",
+          type: "inpu",
           message: "what product id would you like to buy?",
           validate: function (value) {
             if (isNaN(value) === false) {
@@ -66,13 +66,13 @@ function startUp() {
 
 
       if (parseInt(answer.howMuch) > selectedItem.stock) {
-        console.log("We don't have enough of that item available.\nPlease select a different item or change the quantity.");
+        console.log("Not enough of that item available.\n Select a different item or change the quantity.");
 
         startUp();
       }
        else {
 
-        console.log(("ORDER SUCCESSFUL!!! YOUR TOTAL IS $" + (selectedItem.price * parseInt(answer.howMuch)).toFixed(2)));
+        console.log(("ORDER SUCCESSFUL! YOUR TOTAL IS $" + (selectedItem.price * parseInt(answer.howMuch)).toFixed(2)));
         var newStock = parseInt(selectedItem.stock) - parseInt(answer.howMuch);
 
         connection.query("UPDATE products SET ? WHERE ?",
