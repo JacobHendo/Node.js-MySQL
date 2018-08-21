@@ -6,7 +6,7 @@ show the total amount spent on their purchase.
 
 ## Deployment
 
-https://jacobhendo.github.io/Liri-Node/
+https://github.com/JacobHendo/Node.js-MySQL
 
 ## Built With
 
