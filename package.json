@@ -1,0 +1,24 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "A amazon like app",
+  "main": "bamazon.js",
+  "dependencies": {
+    "inquirer": "^6.1.0",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "Im here"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JacobHendo/Node.js-MySQL.git"
+  },
+  "author": "Jacob Henderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JacobHendo/Node.js-MySQL/issues"
+  },
+  "homepage": "https://github.com/JacobHendo/Node.js-MySQL#readme"
+}
